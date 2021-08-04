@@ -29,5 +29,6 @@ ADD setup_scripts/* /setup_scripts/
 ADD docker-entrypoint.sh /docker-entrypoint.sh
 
 EXPOSE 631
+VOLUME /etc/cups
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
