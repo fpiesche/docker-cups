@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:11.6
 
 ENV DEBIAN_FRONTEND=noninteractive HPLIP_PLUGIN_VERSION=3.18.12
 
