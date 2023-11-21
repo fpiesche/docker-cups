@@ -1,4 +1,4 @@
-FROM debian:12.1
+FROM debian:12.2
 
 ENV DEBIAN_FRONTEND=noninteractive HPLIP_PLUGIN_VERSION=3.18.12
 
